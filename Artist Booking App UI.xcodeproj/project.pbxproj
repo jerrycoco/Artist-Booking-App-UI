@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC33AF7C2A18D0F40042FFE3 /* Artist_Booking_App_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AF7B2A18D0F40042FFE3 /* Artist_Booking_App_UIApp.swift */; };
+		BC33AF7E2A18D0F40042FFE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AF7D2A18D0F40042FFE3 /* ContentView.swift */; };
+		BC33AF802A18D0F50042FFE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC33AF7F2A18D0F50042FFE3 /* Assets.xcassets */; };
+		BC33AF832A18D0F50042FFE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC33AF822A18D0F50042FFE3 /* Preview Assets.xcassets */; };
+		BC33AF8A2A18D1DE0042FFE3 /* OnBoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AF892A18D1DE0042FFE3 /* OnBoadingView.swift */; };
+		BC33AF8C2A18E40B0042FFE3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AF8B2A18E40B0042FFE3 /* HomeView.swift */; };
+		BC33AF8F2A18EECA0042FFE3 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AF8E2A18EECA0042FFE3 /* Header.swift */; };
+		BC33AF912A18F3F90042FFE3 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AF902A18F3F90042FFE3 /* SearchBarView.swift */; };
+		BC33AF932A1901520042FFE3 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AF922A1901520042FFE3 /* CategoriesView.swift */; };
+		BC33AF982A1904550042FFE3 /* SeeAllCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AF972A1904550042FFE3 /* SeeAllCategories.swift */; };
+		BC33AF9A2A1927F60042FFE3 /* TopArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AF992A1927F60042FFE3 /* TopArtistsView.swift */; };
+		BC33AF9C2A1936080042FFE3 /* TopArtistsCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AF9B2A1936080042FFE3 /* TopArtistsCardsView.swift */; };
+		BC33AF9E2A19459C0042FFE3 /* SeeAllTopArtistList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AF9D2A19459C0042FFE3 /* SeeAllTopArtistList.swift */; };
+		BC33AFA22A194B7A0042FFE3 /* JennyWilsonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AFA12A194B7A0042FFE3 /* JennyWilsonDetails.swift */; };
+		BC33AFA42A19F9670042FFE3 /* CommercialArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AFA32A19F9670042FFE3 /* CommercialArtistView.swift */; };
+		BC33AFA62A1A03C80042FFE3 /* SeeAllCommercialArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AFA52A1A03C80042FFE3 /* SeeAllCommercialArtists.swift */; };
+		BC33AFA82A1A296A0042FFE3 /* TabViewMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC33AFA72A1A296A0042FFE3 /* TabViewMenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC33AF782A18D0F40042FFE3 /* Artist Booking App UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artist Booking App UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC33AF7B2A18D0F40042FFE3 /* Artist_Booking_App_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist_Booking_App_UIApp.swift; sourceTree = "<group>"; };
+		BC33AF7D2A18D0F40042FFE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC33AF7F2A18D0F50042FFE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC33AF822A18D0F50042FFE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC33AF892A18D1DE0042FFE3 /* OnBoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoadingView.swift; sourceTree = "<group>"; };
+		BC33AF8B2A18E40B0042FFE3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BC33AF8E2A18EECA0042FFE3 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		BC33AF902A18F3F90042FFE3 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		BC33AF922A1901520042FFE3 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		BC33AF972A1904550042FFE3 /* SeeAllCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllCategories.swift; sourceTree = "<group>"; };
+		BC33AF992A1927F60042FFE3 /* TopArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArtistsView.swift; sourceTree = "<group>"; };
+		BC33AF9B2A1936080042FFE3 /* TopArtistsCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArtistsCardsView.swift; sourceTree = "<group>"; };
+		BC33AF9D2A19459C0042FFE3 /* SeeAllTopArtistList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllTopArtistList.swift; sourceTree = "<group>"; };
+		BC33AFA12A194B7A0042FFE3 /* JennyWilsonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JennyWilsonDetails.swift; sourceTree = "<group>"; };
+		BC33AFA32A19F9670042FFE3 /* CommercialArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercialArtistView.swift; sourceTree = "<group>"; };
+		BC33AFA52A1A03C80042FFE3 /* SeeAllCommercialArtists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllCommercialArtists.swift; sourceTree = "<group>"; };
+		BC33AFA72A1A296A0042FFE3 /* TabViewMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC33AF752A18D0F40042FFE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC33AF6F2A18D0F40042FFE3 = {
+			isa = PBXGroup;
+			children = (
+				BC33AF7A2A18D0F40042FFE3 /* Artist Booking App UI */,
+				BC33AF792A18D0F40042FFE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC33AF792A18D0F40042FFE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC33AF782A18D0F40042FFE3 /* Artist Booking App UI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC33AF7A2A18D0F40042FFE3 /* Artist Booking App UI */ = {
+			isa = PBXGroup;
+			children = (
+				BC33AF7B2A18D0F40042FFE3 /* Artist_Booking_App_UIApp.swift */,
+				BC33AF7D2A18D0F40042FFE3 /* ContentView.swift */,
+				BC33AF892A18D1DE0042FFE3 /* OnBoadingView.swift */,
+				BC33AF942A19037D0042FFE3 /* See All View */,
+				BC33AF8D2A18EE9B0042FFE3 /* HomeView */,
+				BC33AF7F2A18D0F50042FFE3 /* Assets.xcassets */,
+				BC33AF812A18D0F50042FFE3 /* Preview Content */,
+			);
+			path = "Artist Booking App UI";
+			sourceTree = "<group>";
+		};
+		BC33AF812A18D0F50042FFE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC33AF822A18D0F50042FFE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC33AF8D2A18EE9B0042FFE3 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				BC33AF9F2A194B140042FFE3 /* New Group */,
+				BC33AF8B2A18E40B0042FFE3 /* HomeView.swift */,
+				BC33AFA02A194B3D0042FFE3 /* ProfileDetails */,
+				BC33AF922A1901520042FFE3 /* CategoriesView.swift */,
+				BC33AFA32A19F9670042FFE3 /* CommercialArtistView.swift */,
+				BC33AF8E2A18EECA0042FFE3 /* Header.swift */,
+				BC33AF902A18F3F90042FFE3 /* SearchBarView.swift */,
+				BC33AF992A1927F60042FFE3 /* TopArtistsView.swift */,
+				BC33AFA72A1A296A0042FFE3 /* TabViewMenuView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		BC33AF942A19037D0042FFE3 /* See All View */ = {
+			isa = PBXGroup;
+			children = (
+				BC33AF972A1904550042FFE3 /* SeeAllCategories.swift */,
+				BC33AF9D2A19459C0042FFE3 /* SeeAllTopArtistList.swift */,
+				BC33AFA52A1A03C80042FFE3 /* SeeAllCommercialArtists.swift */,
+			);
+			path = "See All View";
+			sourceTree = "<group>";
+		};
+		BC33AF9F2A194B140042FFE3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		BC33AFA02A194B3D0042FFE3 /* ProfileDetails */ = {
+			isa = PBXGroup;
+			children = (
+				BC33AF9B2A1936080042FFE3 /* TopArtistsCardsView.swift */,
+				BC33AFA12A194B7A0042FFE3 /* JennyWilsonDetails.swift */,
+			);
+			path = ProfileDetails;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC33AF772A18D0F40042FFE3 /* Artist Booking App UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC33AF862A18D0F50042FFE3 /* Build configuration list for PBXNativeTarget "Artist Booking App UI" */;
+			buildPhases = (
+				BC33AF742A18D0F40042FFE3 /* Sources */,
+				BC33AF752A18D0F40042FFE3 /* Frameworks */,
+				BC33AF762A18D0F40042FFE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Artist Booking App UI";
+			productName = "Artist Booking App UI";
+			productReference = BC33AF782A18D0F40042FFE3 /* Artist Booking App UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC33AF702A18D0F40042FFE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BC33AF772A18D0F40042FFE3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = BC33AF732A18D0F40042FFE3 /* Build configuration list for PBXProject "Artist Booking App UI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC33AF6F2A18D0F40042FFE3;
+			productRefGroup = BC33AF792A18D0F40042FFE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC33AF772A18D0F40042FFE3 /* Artist Booking App UI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC33AF762A18D0F40042FFE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC33AF832A18D0F50042FFE3 /* Preview Assets.xcassets in Resources */,
+				BC33AF802A18D0F50042FFE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC33AF742A18D0F40042FFE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC33AF8F2A18EECA0042FFE3 /* Header.swift in Sources */,
+				BC33AF932A1901520042FFE3 /* CategoriesView.swift in Sources */,
+				BC33AF7E2A18D0F40042FFE3 /* ContentView.swift in Sources */,
+				BC33AFA42A19F9670042FFE3 /* CommercialArtistView.swift in Sources */,
+				BC33AF8C2A18E40B0042FFE3 /* HomeView.swift in Sources */,
+				BC33AF9A2A1927F60042FFE3 /* TopArtistsView.swift in Sources */,
+				BC33AFA82A1A296A0042FFE3 /* TabViewMenuView.swift in Sources */,
+				BC33AFA62A1A03C80042FFE3 /* SeeAllCommercialArtists.swift in Sources */,
+				BC33AFA22A194B7A0042FFE3 /* JennyWilsonDetails.swift in Sources */,
+				BC33AF9C2A1936080042FFE3 /* TopArtistsCardsView.swift in Sources */,
+				BC33AF9E2A19459C0042FFE3 /* SeeAllTopArtistList.swift in Sources */,
+				BC33AF7C2A18D0F40042FFE3 /* Artist_Booking_App_UIApp.swift in Sources */,
+				BC33AF982A1904550042FFE3 /* SeeAllCategories.swift in Sources */,
+				BC33AF912A18F3F90042FFE3 /* SearchBarView.swift in Sources */,
+				BC33AF8A2A18D1DE0042FFE3 /* OnBoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC33AF842A18D0F50042FFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC33AF852A18D0F50042FFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC33AF872A18D0F50042FFE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Artist Booking App UI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "come.jerry.Artist-Booking-App-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC33AF882A18D0F50042FFE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Artist Booking App UI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "come.jerry.Artist-Booking-App-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC33AF732A18D0F40042FFE3 /* Build configuration list for PBXProject "Artist Booking App UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC33AF842A18D0F50042FFE3 /* Debug */,
+				BC33AF852A18D0F50042FFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC33AF862A18D0F50042FFE3 /* Build configuration list for PBXNativeTarget "Artist Booking App UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC33AF872A18D0F50042FFE3 /* Debug */,
+				BC33AF882A18D0F50042FFE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC33AF702A18D0F40042FFE3 /* Project object */;
+}
